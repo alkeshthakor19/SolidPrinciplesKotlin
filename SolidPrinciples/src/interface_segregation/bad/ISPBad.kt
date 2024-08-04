@@ -1,5 +1,9 @@
 package interface_segregation.bad
 
+// 1. Do not force any client to implement an interface which is irrelevant to them
+// 2. Main goal is to focus on avoiding fat interface and give preference to many small client-specific interfaces.
+// 3. Prefer many client interfaces rather than one general interface and each interface should have a specific responsibility.
+
 fun main() {
 
     val eagle = Eagle()
